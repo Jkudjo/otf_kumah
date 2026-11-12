@@ -1,6 +1,6 @@
 module github.com/leg100/otf
 
-go 1.21
+go 1.25.0
 
 require (
 	cloud.google.com/go/pubsub v1.30.1
@@ -48,10 +48,10 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/xanzy/go-gitlab v0.73.1
 	golang.org/x/exp v0.0.0-20230811145659-89c5cff77bcb
-	golang.org/x/mod v0.11.0
-	golang.org/x/net v0.9.0
+	golang.org/x/mod v0.35.0
+	golang.org/x/net v0.54.0
 	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.20.0
 	google.golang.org/api v0.118.0
 	gopkg.in/cenkalti/backoff.v1 v1.1.0
 )
@@ -125,9 +125,9 @@ require (
 	github.com/spf13/cast v1.3.2-0.20200723214538-8d17101741c8 // indirect
 	github.com/zclconf/go-cty v1.8.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/crypto v0.7.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
